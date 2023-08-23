@@ -6,7 +6,7 @@ This is a simple Python script that generates a password by combining random let
 
 1. Clone the repository:
 
-   ```bash
+```bash
    git clone https://github.com/your-username/your-repo-name.git
    ```
 
