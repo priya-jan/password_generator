@@ -25,9 +25,9 @@ for i in range (1,n_symbol+1):
     char = random.choice(symbol)
     password_list+= char
     password_list+= char    
-print(password_list)        # before shuffle'a','b','c','q...z','1','2','3....9','#','@'.....+
+print("Password List",password_list)        # before shuffle'a','b','c','q...z','1','2','3....9','#','@'.....+
 random.shuffle(password_list) # after shuffle 'q','!','2','A'...... random and shuffle numbers generate in the list
-print(password_list)
+print("Password List",password_list)
 password = ""
 for  char in password_list:
     password += char
